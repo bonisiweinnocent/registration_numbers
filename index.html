@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration_number.css">
+    <title>Document</title>
+</head>
+
+<body> 
+
+    <div class="container">
+        <div class="head">
+            <h3>The Registration numbers.</h3>
+           <div class= "display  red-text"></div>
+           <div class= "showAll green-text"></div>
+            <div class="enter">
+                Registration No. <textarea name="name" class="textarea" placeholder="eg.CA 12345" value=""></textarea><br><br>
+                <button class="button-primary addBtn" on type="button" name="button">Add</button>
+            </div>
+            
+                <span class="popup">
+                    <ul id="pops"></ul>
+                </span>
+
+            
+        </div>
+        <div class="heading">
+            <h2>Filter by town</h2>
+            <label for="towns">Choose a town:</label>
+
+            <select name="towns" id="towns">
+                <option disabled selected>Select an option</option> 
+                <option value="Cape Town">Cape Town</option>
+                <option value="Caledon">Caledon</option>
+                <option value="Bellville">Bellville</option>
+
+            </select> *
+        </div>
+        <div class="filter">
+
+        </div>
+        <div class="show">
+         <div>
+            <button class="button-primary showBtn" on type="button" name="button">Display All</button>
+         </div> 
+         <div>
+            <button class="button-primary resetBtn" on type="button" name="button">Reset</button>
+         </div>
+            
+        </div>
+
+    </div>
+
+    <script src="./registratiion_number.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
